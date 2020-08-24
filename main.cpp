@@ -3,10 +3,10 @@
 
 int main() {
     // הכנס את ציוני הקורסים שלך של שנה א:
-    std::vector<double> my_grades_a = {82,77,81,94,85,77,84,74};
+    std::vector<double> my_grades_a = {};
 
     // הכנס את הנ"זים שלהם בהתאמה:
-    std::vector<double> my_naz_a = {7,4,4,7,7,6,6,5};
+    std::vector<double> my_naz_a = {};
 
     // הכנס את ציוני אבני הפינה שלך של שנה א:
     std::vector<double> ap_my_grades_a = {};
@@ -17,16 +17,16 @@ int main() {
 
 
     // הכנס את ציוני הקורסים שלך של שנה ב:
-    std::vector<double> my_grades = {96, 85, 88, 68, 87, 100, 82};
+    std::vector<double> my_grades = {};
 
     // הכנס את הנ"זים שלהם בהתאמה:
-    std::vector<double> my_naz = {4, 2, 5, 5, 5, 2, 6};
+    std::vector<double> my_naz = {};
 
     // הכנס את ציוני אבני הפינה שלך של שנה ב:
-    std::vector<double> ap_my_grades = {100,90};
+    std::vector<double> ap_my_grades = {};
 
     // הכנס את הנ"זים שלהם בהתאמה:
-    std::vector<double> ap_my_naz = {2,2};
+    std::vector<double> ap_my_naz = {};
 
 
 

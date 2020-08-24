@@ -29,8 +29,9 @@ class grades{
         _grades(std::move(grades)), _naz(naz), _ap_grades(ap_grades), _ap_naz(ap_naz), _average(0), _ap_average(0)
         {
 
-            _sach = std::accumulate(_naz.begin(), _naz.end(), 0);
-            _ap_sach = std::accumulate(_ap_naz.begin(), _ap_naz.end(), 0);
+
+            _sach = std::accumulate(_naz.begin(), _naz.end(), 0.0);
+            _ap_sach = std::accumulate(_ap_naz.begin(), _ap_naz.end(), 0.0);
 
 
             for (int i = 0; i < size(naz); ++i) {
